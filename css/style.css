@@ -52,13 +52,13 @@ ul, li {
 }
 
 .text-s {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 
 .text-m {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 }
@@ -101,7 +101,6 @@ ul, li {
 
 .offer {
   width: 100%;
-  height: 100vh;
 }
 .offer__wrapper {
   position: relative;
@@ -140,7 +139,7 @@ ul, li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 800px;
+  width: 810px;
   height: 700px;
   z-index: -10;
   position: absolute;
@@ -264,6 +263,7 @@ ul, li {
 }
 .problem__wrapper {
   display: flex;
+  justify-content: center;
 }
 .problem__problem {
   width: 220px;
@@ -274,7 +274,7 @@ ul, li {
 }
 
 .problem-img {
-  background-image: url("../img/problem/Group.png");
+  background-image: url("../img/problem/problem.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -285,13 +285,11 @@ ul, li {
   left: 0;
   right: 0;
   z-index: -10;
-  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-  border-radius: 8px;
 }
 
 .line {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
   background-image: url("../img/problem/line.svg");
   background-size: cover;
   background-position: center;
@@ -301,22 +299,19 @@ ul, li {
 }
 
 .solution__txt {
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
   text-align: center;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
-
-.solution__txt {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 30px;
+.solution__block {
+  width: 220px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
 }
 
 .sol-txt {
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 22px;
   line-height: 30px;
 }
 
@@ -327,4 +322,6 @@ ul, li {
   background-repeat: no-repeat;
   width: 100%;
   height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
