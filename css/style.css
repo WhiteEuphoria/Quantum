@@ -254,26 +254,21 @@ ul, li {
   border-radius: 50px;
 }
 
-.problem {
+.problems {
   position: relative;
 }
-.problem__container {
-  width: 80%;
-  margin: auto;
-}
-.problem__wrapper {
+.problems__wrapper {
   display: flex;
   justify-content: center;
 }
-.problem__problem {
+.problems__problem {
   width: 220px;
-  padding-top: 20px;
 }
-.problem__problem--block {
+.problems__problem--block {
   display: flex;
 }
 
-.problem-img {
+.problems-img {
   background-image: url("../img/problem/problem.png");
   background-size: cover;
   background-position: center;
@@ -298,6 +293,10 @@ ul, li {
   height: 200px;
 }
 
+.solution__container {
+  width: 1140px;
+  margin: auto;
+}
 .solution__txt {
   text-align: center;
   width: 90%;
@@ -318,7 +317,7 @@ ul, li {
 }
 .solution__block--content {
   padding: 15px 0 15px 0;
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 .solution__block h4 {
@@ -343,4 +342,52 @@ ul, li {
   height: 1px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media (max-width: 1280px) {
+  .text-m {
+    font-size: 16px;
+  }
+  .text-s {
+    font-size: 13px;
+  }
+  .offer__title {
+    font-size: 40px;
+  }
+  .solution__container {
+    width: 1080px;
+  }
+}
+@media (max-width: 1180px) {
+  .offer__video {
+    width: 300px;
+  }
+  .clients__client span {
+    width: 70%;
+  }
+  .problems__problem {
+    width: 45%;
+  }
+  .problems__problem--block {
+    width: 40%;
+  }
+  .line {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .solution__container {
+    width: 900px;
+  }
+  .solution__block {
+    width: 21%;
+  }
+  .solution__block:first-child {
+    width: 30%;
+  }
+  .solution__block--content {
+    width: 90%;
+  }
+  .solution__block h4 {
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
