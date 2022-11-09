@@ -402,6 +402,10 @@ ul, li {
   }
 }
 @media (max-width: 921px) {
+  .logo {
+    width: 160px;
+    height: 63px;
+  }
   .title {
     font-size: 30px;
   }
@@ -480,6 +484,13 @@ ul, li {
   }
 }
 @media (max-width: 600px) {
+  .outer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .title {
+    margin-bottom: 30px;
+  }
   .clients__wrapper {
     justify-content: center;
     flex-wrap: wrap;
@@ -495,5 +506,129 @@ ul, li {
   }
   .solution__block--wrapp {
     width: 380px;
+  }
+  .problems__problem--block {
+    width: 90%;
+  }
+}
+@media (max-width: 481px) {
+  .outer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .offer__title {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  .sol-txt {
+    font-size: 15px;
+  }
+  .text-m {
+    font-size: 14px;
+  }
+  .text-s {
+    font-size: 12px;
+  }
+  .logo {
+    width: 140px;
+    height: 55px;
+  }
+  .header {
+    height: 84px;
+  }
+  .header__btn {
+    width: 140px;
+    height: 50px;
+  }
+  .offer__title {
+    width: 100%;
+  }
+  .offer p {
+    width: 80%;
+  }
+  .offer__img {
+    display: none;
+  }
+  .clients__client {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .clients__client:first-child {
+    margin: 0;
+  }
+  .clients__client span {
+    width: 100%;
+  }
+  .clients__client p {
+    width: 100%;
+  }
+  .solution__block {
+    width: 48%;
+  }
+  .solution__block:first-child {
+    width: 48%;
+  }
+  .solution__block:last-child {
+    margin-top: 20px;
+  }
+  .solution__block--wrapp {
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+  }
+  .solution__block h4 {
+    font-size: 28px;
+  }
+  .problems__problem {
+    padding-top: 0;
+    width: 100%;
+  }
+  .problems__problem--block {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .line {
+    background-image: url("../img/problem/line2.svg");
+    width: 200px;
+    height: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .line-mob {
+    display: block;
+  }
+  .solution__block {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .solution__block:first-child {
+    width: 100%;
+  }
+  .solution__block:last-child {
+    margin: 0;
+  }
+  .solution__block--wrapp {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 391px) {
+  .outer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .header {
+    height: 80px;
+  }
+  .header__btn {
+    width: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
