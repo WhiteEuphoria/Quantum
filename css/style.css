@@ -443,8 +443,8 @@ ul, li {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 188px;
-  height: 75px;
+  width: 140px;
+  height: 55px;
 }
 .partners__img-2 {
   background-image: url("../img/partners/ms.svg");
@@ -667,6 +667,21 @@ ul, li {
   .problems__problem--block {
     width: 90%;
   }
+  .partners__wrapper {
+    width: 340px;
+  }
+  .partners__img-1 {
+    width: 120px;
+    height: 45px;
+  }
+  .partners__img-2 {
+    width: 64px;
+    height: 64px;
+  }
+  .partners__img-3 {
+    width: 96px;
+    height: 80px;
+  }
 }
 @media (max-width: 481px) {
   .solution__container {
@@ -829,5 +844,21 @@ ul, li {
   .advisors__user img {
     width: 90px;
     height: 90px;
+  }
+  .partners__wrapper {
+    width: 310px;
+    justify-content: space-around;
+  }
+  .partners__img-1 {
+    width: 100px;
+    height: 40px;
+  }
+  .partners__img-2 {
+    width: 58px;
+    height: 58px;
+  }
+  .partners__img-3 {
+    width: 82px;
+    height: 68px;
   }
 }/*# sourceMappingURL=style.css.map */
