@@ -537,6 +537,8 @@ ul, li {
   top: 20px;
   right: 20px;
   cursor: pointer;
+  -webkit-animation: vis 1.2s backwards;
+          animation: vis 1.2s backwards;
 }
 
 @media (max-width: 1360px) {
