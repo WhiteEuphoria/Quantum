@@ -463,6 +463,16 @@ ul, li {
   height: 97px;
 }
 
+.signup {
+  background: radial-gradient(92.86% 93.54% at 59.91% 93.54%, #A6A6A6 0%, rgba(217, 217, 217, 0.01) 100%);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+.signup__wrapper {
+  width: 70%;
+  margin: auto;
+}
+
 @media (max-width: 1360px) {
   .advisors__wrapper {
     display: flex;
@@ -632,6 +642,9 @@ ul, li {
     width: 98px;
     height: 98px;
   }
+  .signup__wrapper {
+    width: 90%;
+  }
 }
 @media (max-width: 600px) {
   .solution__container {
@@ -697,7 +710,7 @@ ul, li {
   }
   .title {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .offer__title {
     font-size: 35px;
@@ -811,6 +824,9 @@ ul, li {
   .advisors__user img {
     width: 90px;
     height: 90px;
+  }
+  .signup__wrapper {
+    width: 100%;
   }
 }
 @media (max-width: 391px) {
