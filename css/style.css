@@ -473,6 +473,17 @@ ul, li {
   margin: auto;
 }
 
+.agreement__wrapper p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.agreement__wrapper p:last-child {
+  margin: 0;
+  padding-top: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 @media (max-width: 1360px) {
   .advisors__wrapper {
     display: flex;
@@ -827,6 +838,14 @@ ul, li {
   }
   .signup__wrapper {
     width: 100%;
+  }
+  .agreement__wrapper p {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .agreement__wrapper:last-child {
+    margin: 0;
+    padding-top: 10px;
   }
 }
 @media (max-width: 391px) {
