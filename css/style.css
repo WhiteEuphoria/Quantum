@@ -84,6 +84,23 @@ ul, li {
   margin-bottom: 50px;
 }
 
+@-webkit-keyframes vis {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes vis {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .header {
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 4px 4px 1px rgba(16, 16, 16, 0.26);
@@ -505,6 +522,8 @@ ul, li {
 
 .modal-vis {
   display: flex;
+  -webkit-animation: vis 0.8s forwards;
+          animation: vis 0.8s forwards;
 }
 
 .close {
