@@ -135,6 +135,14 @@
   .signup
     &__wrapper
       width: 90%
+  .modal-video
+    width: 98%
+    height: 98%
+    & video
+      width: 80%
+      height: 70%
+  .close
+    top: 25px
 @media (max-width: 600px)
   .solution
     &__container
@@ -288,9 +296,18 @@
       & p
         text-align: center
         margin-bottom: 8px
-      &:last-child
-        margin: 0
-        padding-top: 10px
+        &:last-child
+          margin: 0
+          padding-top: 12px
+@media (max-width: 421px)
+  .modal-video
+    width: 97%
+    height: 95%
+    & video
+      width: 92%
+      height: 70%
+  .close
+    top: 20px
 @media (max-width: 391px)
   .solution
     &__container
