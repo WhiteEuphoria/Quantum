@@ -402,10 +402,76 @@ ul, li {
   }
 }
 @media (max-width: 921px) {
+  .title {
+    font-size: 30px;
+  }
+  .sol-txt {
+    font-size: 17px;
+  }
   .text-m {
     font-size: 15px;
   }
   .text-s {
     font-size: 12px;
+  }
+  .header__btn {
+    width: 160px;
+  }
+  .offer__img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  .offer__video {
+    margin-top: 15px;
+    position: static;
+    width: 280px;
+    height: 94px;
+  }
+  .offer__video--img {
+    width: 54px;
+    height: 59px;
+  }
+  .clients__client:last-child {
+    display: none;
+  }
+  .problems__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .problems__problem {
+    padding-top: 30px;
+  }
+  .problems__problem--block {
+    width: 70%;
+  }
+  .line {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .line-mob {
+    display: none;
+  }
+  .solution__block {
+    width: 48%;
+  }
+  .solution__block:first-child {
+    width: 48%;
+  }
+  .solution__block:last-child {
+    margin-top: 20px;
+  }
+  .solution__block--wrapp {
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+  }
+  .solution__container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .solution__block--wrapp {
+    width: 380px;
   }
 }/*# sourceMappingURL=style.css.map */
