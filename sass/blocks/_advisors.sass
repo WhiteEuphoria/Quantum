@@ -4,15 +4,44 @@
   background-position: center
   background-repeat: no-repeat
   width: 100%
+  &__wrapper
+    display: flex
+    justify-content: space-around
   &__item
+    width: 600px
+    background: rgba(11, 16, 82, 0.7)
+    border-radius: 8px
     &--wrapp
       padding: 30px
   &__user
     display: flex
+    & h5
+      margin-bottom: 18px
+    & span
+      width: 100%
     & img
       width: 108px
       height: 108px
+      border-radius: 50px
+      object-fit: cover
+      object-position: center
       margin-right: 30px
     &--cont
       display: flex
       flex-direction: column
+  &__line
+    margin-top: 15px
+    margin-bottom: 15px
+    background-image: url("../img/advisors/ad-line.svg")
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    width: 100%
+    height: 1px
+  &__text
+    & p
+      color: rgba(255, 255, 255, 0.75)
+      font-weight: 300
+      font-style: italic
+      width: 100%
+      margin: auto
