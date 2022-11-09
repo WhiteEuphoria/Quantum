@@ -42,6 +42,11 @@ ul, li {
   padding-bottom: 80px;
 }
 
+.outer-2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .logo {
   width: 176px;
   height: 70px;
@@ -296,6 +301,7 @@ ul, li {
 .solution__container {
   width: 1140px;
   margin: auto;
+  padding-bottom: 40px;
 }
 .solution__txt {
   text-align: center;
@@ -342,6 +348,21 @@ ul, li {
   height: 1px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.investing {
+  background: rgba(255, 255, 255, 0.85);
+}
+.investing__wrapper h2 {
+  color: #0B1052;
+}
+.investing__wrapper p {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.investing__wrapper p:last-child {
+  margin: 0;
 }
 
 @media (max-width: 1280px) {
@@ -484,6 +505,13 @@ ul, li {
   }
 }
 @media (max-width: 600px) {
+  .solution__container {
+    padding-bottom: 30px;
+  }
+  .outer-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .outer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -512,6 +540,13 @@ ul, li {
   }
 }
 @media (max-width: 481px) {
+  .solution__container {
+    padding-bottom: 25px;
+  }
+  .outer-2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
   .outer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -621,6 +656,13 @@ ul, li {
   }
 }
 @media (max-width: 391px) {
+  .solution__container {
+    padding-bottom: 20px;
+  }
+  .outer-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .outer {
     padding-top: 40px;
     padding-bottom: 40px;
