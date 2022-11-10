@@ -721,7 +721,7 @@ ul, li {
   .advisors__item--wrapp {
     padding: 30px;
   }
-  .advisors__user img {
+  .advisors__img {
     width: 98px;
     height: 98px;
   }
@@ -773,6 +773,9 @@ ul, li {
   }
   .problems__problem--block {
     width: 90%;
+  }
+  .advisors__user--cont {
+      width: 70%;
   }
   .partners__wrapper {
     width: 340px;
@@ -828,7 +831,7 @@ ul, li {
   }
   .header__btn {
     width: 180px;
-    height: 56px;
+    height: 55px;
   }
   .offer__title {
     width: 100%;
@@ -915,7 +918,9 @@ ul, li {
   .advisors__item--wrapp {
     padding: 20px;
   }
-  .advisors__user img {
+  
+  .advisors__img {
+    margin-right: 20;
     width: 90px;
     height: 90px;
   }
@@ -972,7 +977,8 @@ ul, li {
   .advisors__item--wrapp {
     padding: 12px;
   }
-  .advisors__user img {
+  .advisors__img {
+    margin-right: 12px;
     width: 90px;
     height: 90px;
   }
