@@ -127,8 +127,8 @@ ul, li {
   background: #EB5C1F;
   box-shadow: 0px 0px 9px 3px rgba(222, 99, 46, 0.45);
   border-radius: 12px;
-  width: 180px;
-  height: 60px;
+  width: 220px;
+  height: 62px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,7 +264,7 @@ ul, li {
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   position: relative;
-  z-index: -10;
+    z-index: -10;
 }
 .clients__wrapper {
   padding-top: 20px;
@@ -648,7 +648,7 @@ ul, li {
     font-size: 12px;
   }
   .header__btn {
-    width: 160px;
+    width: 200px;
   }
   .offer__title {
     width: 80%;
@@ -827,8 +827,8 @@ ul, li {
     height: 84px;
   }
   .header__btn {
-    width: 140px;
-    height: 50px;
+    width: 180px;
+    height: 56px;
   }
   .offer__title {
     width: 100%;
@@ -960,7 +960,7 @@ ul, li {
     height: 80px;
   }
   .header__btn {
-    width: 120px;
+    width: 150px;
   }
   .advisors__item {
     width: 100%;
