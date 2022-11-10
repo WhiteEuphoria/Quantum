@@ -967,7 +967,7 @@
                     var shouldSetPlaceholder = this.options.autoPlaceholder === "aggressive" || !this.hadInitialPlaceholder && this.options.autoPlaceholder === "polite";
                     if (window.intlTelInputUtils && shouldSetPlaceholder) {
                         var numberType = intlTelInputUtils.numberType[this.options.placeholderNumberType];
-                        var placeholder = this.selectedCountryData.iso2 ? intlTelInputUtils.getExampleNumber(this.selectedCountryData.iso2, this.options.nationalMode, numberType) : "";
+                        var placeholder = this.selectedCountryData.iso2 ? intlTelInputUtils.getExampleNumber(this.selectedCountryData.iso2, this.options.nationalMode, numberType) : "Номер телефона";
                         placeholder = this._beforeSetNumber(placeholder);
                         if (typeof this.options.customPlaceholder === "function") {
                             placeholder = this.options.customPlaceholder(placeholder, this.selectedCountryData);
