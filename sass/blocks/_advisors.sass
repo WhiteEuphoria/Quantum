@@ -19,13 +19,18 @@
       margin-bottom: 18px
     & span
       width: 100%
-    & img
-      width: 108px
-      height: 108px
-      border-radius: 50px
-      object-fit: cover
-      object-position: center
-      margin-right: 30px
+  &__img
+    width: 108px
+    height: 108px
+    border-radius: 50px
+      // object-fit: cover
+      // object-position: top
+    background-size: cover
+    background-position: top
+    margin-right: 30px
+    background-image: url("../img/advisors/bezos.jpg")
+  &__img-last
+    background-image: url("../img/advisors/mark.jpg")
     &--cont
       display: flex
       flex-direction: column

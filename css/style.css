@@ -31,7 +31,10 @@ ul, li {
   padding: 0;
   margin: 0;
 }
-
+.country-phone{
+  border: none;
+  padding: 0;
+}
 .container {
   width: 90%;
   margin: auto;
@@ -263,6 +266,7 @@ ul, li {
 .clients__client {
   display: flex;
   align-items: center;
+  z-index: -10;
 }
 .clients__client div {
   display: flex;
@@ -416,17 +420,19 @@ ul, li {
 .advisors__user span {
   width: 100%;
 }
-.advisors__user img {
+.advisors__img {
   width: 108px;
   height: 108px;
   border-radius: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  background-size: cover;
+  background-position: top;
   margin-right: 30px;
+  background-image: url("../img/advisors/bezos.jpg");
 }
-.advisors__user--cont {
+.advisors__img-last {
+  background-image: url("../img/advisors/mark.jpg");
+}
+.advisors__img-last--cont {
   display: flex;
   flex-direction: column;
 }

@@ -7,3 +7,9 @@ play.addEventListener("click", function (){
 closeVideo.addEventListener("click", function (){   
     document.querySelector(".modal-video").classList.remove("modal-vis");
 });
+
+// $(function () {
+//     $('#phone').phonecode({
+//         preferCo: 'ru'
+//     });
+// });

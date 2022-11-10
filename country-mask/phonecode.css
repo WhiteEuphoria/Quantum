@@ -1,6 +1,6 @@
 .country-phone-options {
   display: none;
-  position: absolute;
+  position: fixed;
   width: 280px;
   max-height: 480px;
   overflow-y: scroll;
@@ -59,10 +59,7 @@
   margin-left: 3px;
 }
 
-.country-phone {
-  border: 1px solid #aaa;
-  padding: 4px;
-}
+
 
 .country-phone-selected {
   padding: 4px 0 0 20px;
@@ -79,7 +76,12 @@
 
 .country-phone-options {
   width: 298px;
+  /* height: 300px; */
   margin: 30px 0 0 -5px;
+  position: fixed;
+  bottom: 20px;
+  left: 100px;
+  z-index: 100;
 }
 
 .country-phone-option {
