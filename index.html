@@ -325,16 +325,22 @@
         <div class="outer-2 container">
             <h2 class="title"> РЕГЕСТРАЦИЯ БЕСПЛАТНО</h2>
             <div class="signup__wrapper">
-                <form action="" class="form g-form" >
+                <form action="" class="form g-form" method="POST" id="g-form-2">
+                    <h2 class=" g-form__title_respond"></h2>
+                    <div class="g-form__preloader"></div>
                     <div class="form__wrapper">
                         <div>
-                            <input type="text" class="text-s form__input--txt form__input" placeholder="Имя" required>
-                            <input type="text" class="text-s form__input--txt form__input" placeholder="Фамилия" required>
+                            <input name="Имя" type="text" class="text-s form__input--txt form__input" placeholder="Имя" required>
+                            <input name="Фамилия" type="text" class="text-s form__input--txt form__input" placeholder="Фамилия" required>
                         </div>
-                        <input type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
-                        <input type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
-                        <input type="tel" name="phone1" class="text-s form__input form__input--com" placeholder required>
-                        <button type="submit" class="form__btn text-m quest-btn2"> Зарегистрироваться</button>
+                        <input name="Email" type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
+                        <input name="Пароль" type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
+                        <input name="Телефон" type="tel" name="phone1" class="text-s form__input form__input--com" placeholder required>
+                            <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+                                <label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
+                                <input id="honeypot" type="text" name="honeypot" value="">
+                            </fieldset>
+                        <button type="submit" class="form__btn text-m quest-btn2 g-form__button"> Зарегистрироваться</button>
                     </div>
                     <!-- /.form__wrapper -->
                 </form>
