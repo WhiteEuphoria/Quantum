@@ -13,7 +13,7 @@ closeVideo.addEventListener("click", function (){
 //         preferCo: 'ru'
 //     });
 // });
-const questClose = document.querySelector("#questions-modal__close");
+const questClose = document.querySelector(".questions-modal__close");
 const questBtn = document.querySelector(".quest-btn");
 const questBtn2 = document.querySelector(".quest-btn2");
 const form = document.querySelector(".form");
@@ -25,6 +25,6 @@ const form = document.querySelector(".form");
         document.querySelector(".questions-modal").classList.toggle("questions-modal--active");
     });
     questClose.addEventListener("click", function (){   
-        document.querySelector(".questions-modal").classList.toggle("questions-modal--active");
+        document.querySelector(".questions-modal").classList.remove("questions-modal--active");
     });
 // },true);
