@@ -8,6 +8,7 @@
     <title>Quantum</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="question-modal/question-style.css">
 </head>
 <body>
     <header class="header">
@@ -55,7 +56,7 @@
                             <input type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
                             <input type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
                             <input type="tel"  name="phone1" autofocus="true"  class="text-s form__input form__input--com"  placeholder required>
-                            <button type="submit" class="form__btn text-m"> <a href="#">Зарегистрироваться</a></button>
+                            <button type="submit" class="form__btn text-m quest-btn">Зарегистрироваться</button>
                         </div>
                         <!-- /.form__wrapper -->
                     </form>
@@ -331,7 +332,7 @@
                         <input type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
                         <input type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
                         <input type="tel" name="phone1" class="text-s form__input form__input--com" placeholder required>
-                        <button type="submit" class="form__btn text-m"> <a href="#">Зарегистрироваться</a></button>
+                        <button type="submit" class="form__btn text-m quest-btn2"> Зарегистрироваться</button>
                     </div>
                     <!-- /.form__wrapper -->
                 </form>
@@ -401,7 +402,7 @@
     </section>
     <!-- /.agreement -->
     <div class="modal-video__none modal-video">
-        <video src="videos/movie-1.mp4" width="85%" height="85%" controls="controls" autoplay loop>
+        <video src="video/movie.mp4" width="85%" height="85%" controls="controls" autoplay loop>
         </video>
         <div class="close"></div>
     </div>
@@ -444,5 +445,18 @@
         }
     }
 </script>
+<div class="questions-modal">
+    <form class="questions-modal__form" action="">
+        <h2>Анкета с вопросами:</h2>
+        <input class="questions-modal__input" name="Впорос-1" type="text" placeholder="Сколько вам лет?" required>
+        <input class="questions-modal__input" name="Впорос-2" type="text" placeholder="Кем вы работаете ?" required>
+        <input class="questions-modal__input" name="Впорос-3" type="text" placeholder="Был ли опыт в инвестировании ?" required>
+        <button class="questions-modal__input text-m" type="submit">Отправить</button>
+    </form>
+    <div id="questions-modal__close" class="questions-modal__close close"></div>
+    <!-- /.questions-modal__close -->
+</div>
+<!-- /.questions-modal -->
+<script src="question-main.js"></script>
 </body>
 </html>
