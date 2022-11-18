@@ -46,14 +46,16 @@
             <div class="offer__form">
                 <div class="offer__form--bg">
                     
-                    <form action="" class="form">
-                        <h3 class="sol-txt">РЕГЕСТРАЦИЯ БЕСПЛАТНО</h3>
+                    <form action="" class="form" method="POST" id="g-form-1">
+                        <h3 class="sol-txt g-form__title_main">РЕГЕСТРАЦИЯ БЕСПЛАТНО</h3>
+                        <h2 class="g-form__title g-form__title_respond"></h2>
+                        <div class="g-form__preloader"></div>
                         <div class="form__wrapper">
                             <div>
-                                <input  type="text" class="text-s form__input--txt form__input" placeholder="Имя" required>
-                                <input  type="text" class="text-s form__input--txt form__input" placeholder="Фамилия" required>
+                                <input  name="Имя" type="text" class="text-s form__input--txt form__input" placeholder="Имя" required>
+                                <input  name="Фамилия" type="text" class="text-s form__input--txt form__input" placeholder="Фамилия" required>
                             </div>
-                            <input type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
+                            <input name="Email" type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
                             <input type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
                             <input type="tel"  name="phone1" autofocus="true"  class="text-s form__input form__input--com"  placeholder required>
                             <button type="submit" class="form__btn text-m quest-btn">Зарегистрироваться</button>
