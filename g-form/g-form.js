@@ -8,7 +8,7 @@ $(function() {
 
 		// Ссылка, которую получили на этапе публикации приложения
 
-		let appLink = "https://script.google.com/macros/s/AKfycby71YfKwkguXwsatKoNtZMb7FonlrNv1oCiBCU7VCt6zMS1tNq37J8wzOqkDGocO6EXeA/exec";
+		let appLink = "https://script.google.com/macros/s/AKfycbyuNN1sNH0ctVR0b8Zu8PEKLx_OKm8mbvEDao6CFA5RXcGk4g_drgMWVe3aDRmr9tg_/exec";
 
 
 

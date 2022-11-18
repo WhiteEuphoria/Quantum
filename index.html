@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="question-modal/question-style.css">
+    <link rel="stylesheet" href="g-form/g-form.css">
 </head>
 <body>
     <header class="header">
@@ -458,17 +459,24 @@
     }
 </script>
 <div class="questions-modal">
-    <form class="questions-modal__form" action="">
-        <h2>Анкета с вопросами:</h2>
+    <form class="questions-modal__form g-form" action="" method="POST" id="g-form-3">
+        <h2 class="g-form__title_main">Анкета с вопросами:</h2>
+        <h2 class=" g-form__title_respond"></h2>
+        <div class="g-form__preloader"></div>
         <input class="questions-modal__input" name="Впорос-1" type="text" placeholder="Сколько вам лет?" required>
         <input class="questions-modal__input" name="Впорос-2" type="text" placeholder="Кем вы работаете ?" required>
         <input class="questions-modal__input" name="Впорос-3" type="text" placeholder="Был ли опыт в инвестировании ?" required>
-        <button class="questions-modal__input text-m" type="submit">Отправить</button>
+        <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+            <label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
+            <input id="honeypot" type="text" name="honeypot" value="">
+        </fieldset>
+        <button class="questions-modal__input text-m g-form__button" type="submit">Отправить</button>
     </form>
     <!-- <div id="questions-modal__close" class="close questions-modal__close"></div> -->
     <!-- /.questions-modal__close -->
 </div>
 <!-- /.questions-modal -->
 <script src="question-main.js"></script>
+<script src="g-form/g-form.js"></script>
 </body>
 </html>
