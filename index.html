@@ -58,6 +58,10 @@
                             <input name="Email" type="email" class="text-s form__input form__input--com" placeholder="Email" required></input>
                             <input name="Пароль" type="password" class="text-s form__input form__input--com" placeholder="Пароль" required></input>
                             <input name="Телефон" type="tel"  name="phone1" autofocus="true"  class="text-s form__input form__input--com"  placeholder required>
+                            <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+                                <label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
+                                <input id="honeypot" type="text" name="honeypot" value="">
+                            </fieldset>
                             <button type="submit" class="form__btn text-m quest-btn g-form__button">Зарегистрироваться</button>
                         </div>
                         <!-- /.form__wrapper -->
